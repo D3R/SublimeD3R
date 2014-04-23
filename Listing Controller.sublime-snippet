@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+/* ${2/(?<=[a-z])[A-Z]/ $&/g}
+ *
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
+ */
+class ${2:${TM_FILENAME/AdminController\.[^.]+$//}}AdminController extends D3R_Controller_Action_Admin_Listing${3:_Localised }
+{
+    protected \$_modelClass     = '$2_$5';
+    protected \$_itemName       = '$5';
+    protected \$_listingTitle   = '$5s';
+    protected \$_useUrlName     = ${6:true};
+    protected \$_useGetUrl      = ${7:false};
+    protected \$_useUrlPages    = ${8:false};
+    protected \$_showPageInfo   = ${9:true};
+    protected \$_showFilters    = true;
+    protected \$_useFieldSets   = true;
+    protected \$_csvExport      = false;
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>listing</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <description>D3R Listing Controller</description>
+</snippet>

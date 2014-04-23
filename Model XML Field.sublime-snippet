@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+<field>
+    <name>${1:Title}</name>
+    <type>${3:Text}</type>
+    <required>${4:True}</required>
+    <listing>${5:True}</listing>
+</field>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>field</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.xml</scope>
+    <name>D3R Model XML Field</name>
+</snippet>

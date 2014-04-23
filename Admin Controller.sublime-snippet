@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippet>
+    <content><![CDATA[
+/* ${2/(?<=[a-z])[A-Z]/ $&/g}
+ *
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
+ */
+class ${2:${TM_FILENAME/\.[^.]+$//}} extends D3R_Controller_Action_Admin
+{
+    public function ${6:index}Action()
+    {
+        ${0:# code...}
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>admin</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <description>D3R Admin Controller</description>
+</snippet>

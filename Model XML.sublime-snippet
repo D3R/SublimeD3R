@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<?xml version='1.0'?>
+<fields>
+    $1
+</fields>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>model</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.xml</scope>
+    <description>D3R Model XML</description>
+</snippet>
