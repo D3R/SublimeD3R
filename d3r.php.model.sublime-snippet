@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1/./$MATCH/g} model class
+ *
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+class ${1:Model_Name} extends D3R_Model_Xml
+{
+    protected \$_tableName    = '${1/./\L$MATCH/g}s';
+    protected \$_itemName     = '${1/./\L$MATCH/g}';
+    protected \$_useFieldSets = false;
+}
+]]></content>
+	<tabTrigger>model</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

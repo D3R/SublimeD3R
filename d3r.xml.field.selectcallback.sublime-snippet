@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<field>
+	<name>$1</name>
+	<!-- <dbname>${1/[ ]/_/ig}</dbname> -->
+	<type>SelectCallback</type>
+	<callback>$2</callback>
+	<!-- <default>$3</default> -->
+	<required>False</required>
+	<listing>False</listing>
+	<hasblank>True</hasblank>
+</field>
+]]></content>
+	<tabTrigger>select</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

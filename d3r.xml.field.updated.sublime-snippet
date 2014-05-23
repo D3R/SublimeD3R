@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<field>
+	<name>Updated</name>
+	<dbname>updated</dbname>
+	<type>Updated</type>
+	<required>False</required>
+	<listing>False</listing>
+</field>
+]]></content>
+	<tabTrigger>updated</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

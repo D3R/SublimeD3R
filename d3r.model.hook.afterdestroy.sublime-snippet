@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+public function afterDestroy()
+{
+	parent::afterDestroy();$1
+}$2
+]]></content>
+	<tabTrigger>adestroy</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

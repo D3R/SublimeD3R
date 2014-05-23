@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+<field>
+    <name>$1</name>
+    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->
+    <type>Asset</type>
+    <required>False</required>
+    <listing>False</listing>
+    <!-- <crops>square</crops> -->
+    <!-- <format>
+        <size>admin</size>
+        <type>jpeg</type>
+    </format> -->
+    <!-- <max_files>1</max_files> -->
+</field>
+]]></content>
+	<tabTrigger>asset</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

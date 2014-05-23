@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<field>
+	<name>$1</name>
+	<!-- <dbname>${1/[ ]/_/ig}</dbname> -->
+	<type>LinkToMany</type>
+	<model>$2</model>
+	<listing>False</listing>
+	<foreign_field>$3</foreign_field>
+	<use_urlname>False</use_urlname>
+	<raw_query>True</raw_query>
+	<!-- <read_only>True</read_only> -->
+	<!-- <use_fieldsets>False</use_fieldsets> -->
+	<!-- <show_title>False</show_title> -->
+	<!-- <instance></instance> -->
+	<!-- <instance_field></instance_field> -->
+	<!-- <show_add_new>False</show_add_new> -->
+</field>
+]]></content>
+	<tabTrigger>linktomany</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

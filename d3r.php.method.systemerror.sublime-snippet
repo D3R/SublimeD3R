@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+D3R::systemError('$1');
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>serror</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

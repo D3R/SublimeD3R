@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<?php
+/**
+ * D3R Ltd
+ *
+ * @category    $1
+ * @package     $2
+ * @copyright   Copyright (c) 2006 D3R Ltd (http://d3r.com)
+ * @license     http://d3r.com/license.txt
+ */
+
+$3
+]]></content>
+	<tabTrigger>phptag</tabTrigger>
+</snippet>

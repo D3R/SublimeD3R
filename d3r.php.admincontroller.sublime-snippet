@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+class ${1:ModuleAdminController} extends D3R_Controller_Action_Admin_Listing
+{
+
+	protected \$_modelClass		= '${2:Model_Name}';
+	protected \$_itemName		= '${3:Item}';
+	protected \$_listingTitle	= '${4:Items}';
+
+	public function setup()
+    {}
+
+	protected function setupListing(D3R_Model_Listing \$listing)
+    {
+        parent::setupListing(\$listing);
+    }
+
+}
+]]></content>
+	<tabTrigger>lcont</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

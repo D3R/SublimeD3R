@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<field>
+	<name>$1</name>
+	<!-- <dbname>${1/[ ]/_/ig}</dbname> -->
+	<type>Select</type>
+	<options>
+		<option value="$3">$4</option>
+	</options>
+	<!-- <default>$5</default> -->
+	<required>False</required>
+	<listing>False</listing>
+	<hasblank>True</hasblank>
+</field>
+]]></content>
+	<tabTrigger>select</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>
