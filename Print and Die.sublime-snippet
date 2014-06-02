@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+echo '<pre>'; print_r($1); die();
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>pred</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <description>print_r(); die();</description>
+</snippet>
