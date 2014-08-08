@@ -1,5 +1,0 @@
-<snippet>
-    <content><![CDATA[\$this->view()->$1]]></content>
-    <tabTrigger>view</tabTrigger>
-    <scope>source.php</scope>
-</snippet>
