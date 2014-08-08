@@ -1,9 +1,10 @@
 <snippet>
 	<content><![CDATA[
-Core_Queue::Factory()->priority(1)->shove($1, '$2');
+Core_Queue::factory()->priority(1)->shove($1, '$2');
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>queue</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
+	<description>D3R Queue shove</description>
 </snippet>

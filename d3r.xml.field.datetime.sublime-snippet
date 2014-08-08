@@ -1,14 +1,15 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 <field>
-	<name>$1</name>
-	<!-- <dbname>${1/[ ]/_/ig}</dbname> -->
-	<type>DateTime</type>
-	<!-- <default>${3:now}</default> -->
-	<required>False</required>
-	<listing>False</listing>
+    <name>$1</name>
+    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->
+    <type>DateTime</type>
+    <!-- <default>${3:now}</default> -->
+    <required>False</required>
+    <listing>False</listing>
 </field>
 ]]></content>
-	<tabTrigger>datetime</tabTrigger>
-	<scope>text.xml</scope>
+    <tabTrigger>datetime</tabTrigger>
+    <scope>text.xml</scope>
+    <description>D3R Field DateTime</description>
 </snippet>

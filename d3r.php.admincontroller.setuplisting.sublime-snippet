@@ -9,4 +9,5 @@ protected function setupListing(D3R_Model_Listing \$listing)
     <tabTrigger>setupl</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
+    <description>D3R Admin Controller setupListing</description>
 </snippet>

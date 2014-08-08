@@ -10,4 +10,5 @@
 ]]></content>
     <tabTrigger>note</tabTrigger>
     <scope>text.xml</scope>
+    <description>D3R Field Note</description>
 </snippet>

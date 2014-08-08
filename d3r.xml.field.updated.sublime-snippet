@@ -10,4 +10,5 @@
 ]]></content>
 	<tabTrigger>updated</tabTrigger>
 	<scope>text.xml</scope>
+	<description>D3R Field Updated</description>
 </snippet>

@@ -1,18 +1,19 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 <field>
-	<name>$1</name>
-	<!-- <dbname>${1/[ ]/_/ig}</dbname> -->
-	<type>Checkbox</type>
-	<!-- <default>$3</default> -->
-	<required>False</required>
-	<listing>False</listing>
+    <name>$1</name>
+    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->
+    <type>Checkbox</type>
+    <!-- <default>$3</default> -->
+    <required>False</required>
+    <listing>False</listing>
     <on_value>true</on_value>
     <on_label>Yes</on_label>
     <off_value>false</off_value>
     <off_label>No</off_label>
 </field>
 ]]></content>
-	<tabTrigger>checkbox</tabTrigger>
-	<scope>text.xml</scope>
+    <tabTrigger>checkbox</tabTrigger>
+    <scope>text.xml</scope>
+    <description>D3R Field Checkbox</description>
 </snippet>

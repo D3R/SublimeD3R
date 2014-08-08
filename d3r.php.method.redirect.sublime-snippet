@@ -6,4 +6,5 @@ D3R::redirect('$1');
     <tabTrigger>redir</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
+    <description>D3R Redirect</description>
 </snippet>

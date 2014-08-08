@@ -6,4 +6,5 @@ D3R::systemError('$1');
     <tabTrigger>serror</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
+    <description>D3R System Error</description>
 </snippet>

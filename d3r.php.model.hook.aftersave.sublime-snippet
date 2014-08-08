@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public function afterSave()
+{
+    parent::afterSave();$1
+}$2
+]]></content>
+    <tabTrigger>asave</tabTrigger>
+    <scope>source.php</scope>
+    <description>D3R Model afterSave</description>
+</snippet>

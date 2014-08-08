@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public function afterCreate()
+{
+    parent::afterCreate();$1
+}$2
+]]></content>
+    <tabTrigger>acreate</tabTrigger>
+    <scope>source.php</scope>
+    <description>D3R Model afterCreate</description>
+</snippet>

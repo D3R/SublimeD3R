@@ -1,7 +1,10 @@
 <snippet>
 	<content><![CDATA[
-D3R_Debug::logVar($1, '${2:Variable output}', '${3:payment}');
+D3R_Debug::logVar(${1:\$var}, '${2:Variable output}', '${3:payment}');
 ]]></content>
 	<tabTrigger>logvar</tabTrigger>
 	<scope>source.php</scope>
+	<description>D3R Debug logVar</description>
 </snippet>
+
+

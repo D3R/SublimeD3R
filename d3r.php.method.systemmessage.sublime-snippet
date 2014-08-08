@@ -6,4 +6,5 @@ D3R::systemMessage('$1');
     <tabTrigger>smsg</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
+    <description>D3R System Message</description>
 </snippet>

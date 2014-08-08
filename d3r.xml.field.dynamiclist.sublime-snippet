@@ -3,15 +3,15 @@
 <field>
     <name>$1</name>
     <!-- <dbname>${1/[ ]/_/ig}</dbname> -->
-    <type>SelectCallback</type>
-    <callback>$2</callback>
+    <type>DynamicList</type>
     <!-- <default>$3</default> -->
+    <!-- <suppress_blank>True</suppress_blank> -->
+    <!-- <max_items>10</max_items> -->
     <required>False</required>
     <listing>False</listing>
-    <hasblank>True</hasblank>
 </field>
 ]]></content>
-    <tabTrigger>select</tabTrigger>
+    <tabTrigger>dynamiclist</tabTrigger>
     <scope>text.xml</scope>
-    <description>D3R Field SelectCallback</description>
+    <description>D3R Field DynamicList</description>
 </snippet>

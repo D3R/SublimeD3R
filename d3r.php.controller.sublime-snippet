@@ -1,24 +1,24 @@
 <snippet>
-	<content><![CDATA[
-/**
- * ${1/./$MATCH/g} Controller
+    <content><![CDATA[
+/* ${2/(?<=[a-z])[A-Z]/ $&/g}
  *
- * @author Ronan Chilvers <ronan@d3r.com>
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
  */
-class ${1:ModuleController} extends D3R_Controller_Action_Base
+class ${2:${TM_FILENAME/\.[^.]+$//}} extends D3R_Controller_Action_Base
 {
+    protected \$_frame  = '${3:frame}';
+    protected \$_layout = '${4:default}';
 
-    /**
-     * Standard default index action
-     *
-     * @author Ronan Chilvers <ronan@d3r.com>
-     */
-	public function indexAction()
-	{
-	}
-
+    public function ${6:index}Action()
+    {
+        ${0:# code...}
+    }
 }
+
 ]]></content>
-	<tabTrigger>cont</tabTrigger>
-	<scope>source.php</scope>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>controller</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <description>D3R Controller</description>
 </snippet>

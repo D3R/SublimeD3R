@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+<field>
+    <name>Created</name>
+    <dbname>created</dbname>
+    <type>DateTime</type>
+    <default>now</default>
+    <required>False</required>
+    <listing>False</listing>
+</field>
+<field>
+    <name>Updated</name>
+    <dbname>updated</dbname>
+    <type>Updated</type>
+    <required>False</required>
+    <listing>False</listing>
+</field>
+]]></content>
+    <tabTrigger>timestamps</tabTrigger>
+    <scope>text.xml</scope>
+    <description>D3R Field Timestamps</description>
+</snippet>

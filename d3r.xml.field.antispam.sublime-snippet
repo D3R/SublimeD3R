@@ -1,11 +1,12 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 <field>
-	<name>Anti spam</name>
-	<dbname>antispam</dbname>
-	<type>Antispam</type>
+    <name>Anti spam</name>
+    <dbname>antispam</dbname>
+    <type>Antispam</type>
 </field>
 ]]></content>
-	<tabTrigger>antispam</tabTrigger>
-	<scope>text.xml</scope>
+    <tabTrigger>antispam</tabTrigger>
+    <scope>text.xml</scope>
+    <description>D3R Field Antispam</description>
 </snippet>

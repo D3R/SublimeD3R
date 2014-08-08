@@ -1,13 +1,14 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 <field>
-	<name>$1</name>
-	<!-- <dbname>${1/[ ]/_/ig}</dbname> -->
-	<type>Calculated</type>
-	<listing>True</listing>
+    <name>$1</name>
+    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->
+    <type>Calculated</type>
+    <listing>True</listing>
     <method>getStock</method>
 </field>
 ]]></content>
-	<tabTrigger>calc</tabTrigger>
-	<scope>text.xml</scope>
+    <tabTrigger>calc</tabTrigger>
+    <scope>text.xml</scope>
+    <description>D3R Field Calculated</description>
 </snippet>

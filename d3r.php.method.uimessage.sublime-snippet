@@ -6,4 +6,5 @@ D3R_Cli::uiMessage($1);
 	<tabTrigger>uim</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
+	<description>D3R Cli Message</description>
 </snippet>

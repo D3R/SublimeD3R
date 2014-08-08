@@ -1,17 +1,21 @@
 <snippet>
-	<content><![CDATA[
-/**
- * ${1/./$MATCH/g} model class
- *
- * @author Ronan Chilvers <ronan@d3r.com>
+    <content><![CDATA[
+/* ${2/(?<=[a-z])[A-Z]/ $&/g}
+ * 
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
  */
-class ${1:Model_Name} extends D3R_Model_Xml
+class ${2:${TM_FILENAME/\.[^.]+$//}} extends D3R_Model_Xml${3:_Localised }
 {
-    protected \$_tableName    = '${1/./\L$MATCH/g}s';
-    protected \$_itemName     = '${1/./\L$MATCH/g}';
-    protected \$_useFieldSets = false;
+    protected \$_itemName   = '${4:${2/(.*?_)(.*)/\l$2/}}';
+    protected \$_tableName  = '${5:${2/(.*?_)(.*)/\l$2/}s}';
+
+    $6
 }
+
 ]]></content>
-	<tabTrigger>model</tabTrigger>
-	<scope>source.php</scope>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>model</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+    <description>D3R Model</description>
 </snippet>

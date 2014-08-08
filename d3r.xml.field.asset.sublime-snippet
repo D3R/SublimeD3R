@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 <field>
     <name>$1</name>
     <!-- <dbname>${1/[ ]/_/ig}</dbname> -->
@@ -14,6 +14,7 @@
     <!-- <max_files>1</max_files> -->
 </field>
 ]]></content>
-	<tabTrigger>asset</tabTrigger>
-	<scope>text.xml</scope>
+    <tabTrigger>asset</tabTrigger>
+    <scope>text.xml</scope>
+    <description>D3R Field Asset</description>
 </snippet>
