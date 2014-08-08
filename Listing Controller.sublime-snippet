@@ -17,6 +17,7 @@ class ${2:${TM_FILENAME/AdminController\.[^.]+$//}}AdminController extends D3R_C
     protected \$_useFieldSets   = true;
     protected \$_csvExport      = false;
 }
+
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>listing</tabTrigger>

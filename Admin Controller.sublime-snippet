@@ -12,6 +12,7 @@ class ${2:${TM_FILENAME/\.[^.]+$//}} extends D3R_Controller_Action_Admin
         ${0:# code...}
     }
 }
+
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>admin</tabTrigger>

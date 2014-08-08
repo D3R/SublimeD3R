@@ -11,6 +11,7 @@ class ${2:${TM_FILENAME/\.[^.]+$//}} extends D3R_Model_Xml${3:_Localised }
 
     $6
 }
+
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>model</tabTrigger>
