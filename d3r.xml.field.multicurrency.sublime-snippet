@@ -1,18 +1,18 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 <field>
-	<name>$1</name>
-	<!-- <dbname>${1/[ ]/_/ig}</dbname> -->
-	<type>MultiCurrency</type>
-	<!-- <default>$3</default> -->
-	<hide_currency>True</hide_currency>
-	<default_currency>${4:GBP}</default_currency>
-	<required>False</required>
-	<listing>False</listing>
-	<currency_in_label>False</currency_in_label>
+    <name>$1</name>
+    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->
+    <type>MultiCurrency</type>
+    <!-- <default>$3</default> -->
+    <hide_currency>True</hide_currency>
+    <default_currency>${4:GBP}</default_currency>
+    <required>False</required>
+    <listing>False</listing>
+    <currency_in_label>False</currency_in_label>
 </field>
 ]]></content>
-	<tabTrigger>multicurrency</tabTrigger>
-	<scope>text.xml</scope>
-	<description>D3R Field MultiCurrency</description>
+    <tabTrigger>multicurrency</tabTrigger>
+    <scope>text.xml</scope>
+    <description>D3R Field MultiCurrency</description>
 </snippet>
