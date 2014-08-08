@@ -2,5 +2,5 @@
     <content><![CDATA[\$this->view()->$1]]></content>
     <tabTrigger>view</tabTrigger>
     <scope>source.php</scope>
-    <description>D3R Controller view</description>
+    <description>D3R Controller View</description>
 </snippet>
