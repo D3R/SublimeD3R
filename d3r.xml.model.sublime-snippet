@@ -1,0 +1,40 @@
+<snippet>
+	<content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fields>
+    
+    <!-- Model DB Indices -->
+    <!-- <indices>
+        <index>
+            <field>fieldname</field>
+        </index>
+    </indices> -->
+
+    <!-- Model Field Definitions -->
+    
+
+    <!-- Standard timestamp fields -->
+    <field>
+        <name>Created</name>
+        <dbname>created</dbname>
+        <type>DateTime</type>
+        <default>now</default>
+        <required>False</required>
+        <listing>False</listing>
+        <hidden>True</hidden>
+    </field>
+    <field>
+        <name>Updated</name>
+        <dbname>updated</dbname>
+        <type>Updated</type>
+        <required>False</required>
+        <listing>False</listing>
+        <hidden>True</hidden>
+    </field>    
+
+</fields>
+]]></content>
+	<tabTrigger>model</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

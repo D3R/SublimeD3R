@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+<field>
+	<name>$1</name>
+	<!-- <dbname>${1/[ ]/_/ig}</dbname> -->
+	<type>LinkSimple</type>
+	<required>True</required>
+	<model>$2</model>
+	<raw_query>True</raw_query>
+	<hasblank>True</hasblank>
+	<listing>False</listing>
+	<hidden>False</hidden>
+	<!-- <default>0</default> -->
+	<!-- <link_title>field1,field2</link_title> -->
+</field>
+]]></content>
+	<tabTrigger>linksimple</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

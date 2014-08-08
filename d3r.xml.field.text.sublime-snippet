@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<field>
+	<name>$1</name>
+	<!-- <dbname>${1/[ ]/_/ig}</dbname> -->
+	<type>Text</type>
+	<!-- <default>$3</default> -->
+	<required>False</required>
+	<listing>False</listing>
+</field>
+]]></content>
+	<tabTrigger>text</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

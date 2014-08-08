@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1/./$MATCH/g} Controller
+ *
+ * @author Ronan Chilvers <ronan@d3r.com>
+ */
+class ${1:ModuleController} extends D3R_Controller_Action_Base
+{
+
+    /**
+     * Standard default index action
+     *
+     * @author Ronan Chilvers <ronan@d3r.com>
+     */
+	public function indexAction()
+	{
+	}
+
+}
+]]></content>
+	<tabTrigger>cont</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

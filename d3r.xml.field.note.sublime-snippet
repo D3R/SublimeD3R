@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<field>
+    <name>$1</name>
+    <type>Note</type>
+    <text>${2:Note text goes here}</text>
+    <required>False</required>
+    <listing>False</listing>
+</field>
+]]></content>
+    <tabTrigger>note</tabTrigger>
+    <scope>text.xml</scope>
+</snippet>

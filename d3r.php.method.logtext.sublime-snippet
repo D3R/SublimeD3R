@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+D3R_Debug::logText('${1:Variable output}', '${2:payment}');
+]]></content>
+	<tabTrigger>logtext</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

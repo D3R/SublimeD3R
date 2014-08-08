@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<field>
+	<name>Anti spam</name>
+	<dbname>antispam</dbname>
+	<type>Antispam</type>
+</field>
+]]></content>
+	<tabTrigger>antispam</tabTrigger>
+	<scope>text.xml</scope>
+</snippet>

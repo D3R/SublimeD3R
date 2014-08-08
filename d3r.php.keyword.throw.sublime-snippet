@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+throw new D3R_Exception('$1');
+]]></content>
+	<tabTrigger>throw</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+protected function setupListing(D3R_Model_Listing \$listing)
+{
+    ${1:parent::setupListing(\$listing);}
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>setupl</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

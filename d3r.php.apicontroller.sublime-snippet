@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+class ${1:ModuleApiController} extends D3R_Controller_Action_Rest
+{
+
+	protected \$_format        = null;
+	protected \$_defaultFormat = 'json';
+	protected \$_apiVersion    = 2;
+	protected \$_userClass     = 'Core_ApiUser';
+	protected \$_authProvider  = 'D3R_Rest_Auth_Provider_Standard';
+	
+	protected \$_openMethods   = array();
+
+}
+]]></content>
+	<tabTrigger>apicont</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
