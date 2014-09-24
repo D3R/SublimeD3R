@@ -1,0 +1,5 @@
+{
+    "cmd": ["/bin/bash", "-n", "$file"],
+    "file_regex": "line ([0-9]*): .*",
+    "selector": "source.bash"
+}
