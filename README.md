@@ -1,5 +1,4 @@
-SublimeD3R
-==========
+# SublimeD3R
 
 A sublime package for common components of the D3R Framework.
 
@@ -7,8 +6,8 @@ Add the following repository to Sublime Package Manager to be able to install th
 
 `https://raw.githubusercontent.com/D3R/sublime-channel/master/packages.json`
 
-Commands
-========
+## Commands
 
-- toggle_model - ctrl+d, ctrl+t
-This command toggles between the php and xml files for a model.
+* toggle_model 
+    - Toggle between the php and xml files for a D3R Core model
+    - Default keystroke [ ctrl+d, ctrl+t ]
