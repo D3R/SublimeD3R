@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:$TM_FILENAME}
+ *
+ * @author    Ronan Chilvers <ronan@d3r.com>
+ * @copyright 2014 D3R Ltd
+ * @license   http://d3r.com/license D3R Software Licence
+ * @package   ${2:D3R}
+ */
+]]></content>
+    <tabTrigger>legal</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

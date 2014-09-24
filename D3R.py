@@ -1,1 +1,3 @@
 from .d3r.commands.toggle_model_command import ToggleModelCommand
+from .d3r.commands.toggle_model_command import InsertContentCommand
+from .d3r.commands.extract_interface_command import ExtractInterfaceCommand

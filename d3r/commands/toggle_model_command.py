@@ -6,7 +6,7 @@ class ToggleModelCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         view = self.view
         filename = view.file_name()
-        print(filename)
+
         if not "." in filename:
             print(filename + " not found")
             return
