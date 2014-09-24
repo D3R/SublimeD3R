@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+#
+
+file="CHANGELOG.md"
+
+echo "# SublimeD3R Changelog" > $file
+echo "" >> $file
+git --no-pager log --no-merges --format="#### Commit %h (%ai)%n###### %aN (%aE)%n%n%B%n" >> $file
+
