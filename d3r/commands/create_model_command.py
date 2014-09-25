@@ -1,8 +1,11 @@
 import sublime
 import sublime_plugin
 import os.path
+import datetime
 
 from ..utilities import load_data_file
+from ..utilities import find_base_directory
+from ..utilities import make_directory
 from ..settings import get_setting
 
 class CreateModelCommand(sublime_plugin.TextCommand):
@@ -19,33 +22,45 @@ class CreateModelCommand(sublime_plugin.TextCommand):
             print('Invalid model name ' + name)
             return
 
-        module,model = name.split("_")
+        name = name.strip()
+        module,model = name.split("_", 1)
 
-        # Set up tags for template replacement
         tags    = {
             'model_name': module + '_' + model,
             'author': get_setting('author', 'Your Name <you@d3r.com>'),
             'item_name': model.lower(),
             'table_name': model.lower() + "s",
+            'date': datetime.datetime.today().strftime("%Y-%m-%d %H:%M:%S")
         }
 
-        php  = load_data_file('model.php.template')
-        xml  = load_data_file('model.xml.template')
+        files = {
+            "php": load_data_file('model.php.template'),
+            "xml": load_data_file('model.xml.template')
+        }
 
-        if not php or not xml:
-            print('Unable to read model templates')
+        baseDir = find_base_directory()
+        if False == baseDir:
             return
 
-        php  = self.replace_tags(php, tags)
-        xml  = self.replace_tags(xml, tags)
+        baseDir = os.path.join(baseDir, 'modules', module, 'models')
+        make_directory(baseDir)
 
-        # Now we just need to write the files to disk and open them!!!
+        for key in files:
+            if not files[key]:
+                print('Unable to read model templates')
+                return
+            content = self.replace_tags(files[key], tags)
+            path = os.path.join(baseDir, module + "_" + model + "." + key)
+            if os.path.isfile(path):
+                print('File ' + path + ' already exists')
+                continue
+            print('Writing content to file ' + path)
+            with open(path, "w") as file:
+                file.write(content)
+            self.view.window().run_command('open_file', { "file": path })
 
     def replace_tags(self,content,tags):
         for key in tags:
             replace_key = "@" + key + "@"
             content = content.replace(replace_key, tags[key])
         return content
-
-    # def write_file(self,filename,content):
-

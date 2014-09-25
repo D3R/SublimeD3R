@@ -7,8 +7,9 @@
  * @copyright 2014 D3R Ltd
  * @license   http://d3r.com/license D3R Software Licence
  * @package   D3R
+ * @generated @date@
  */
-class @model_name@ extends D3R_Model_Xml_Localised
+class @model_name@ extends D3R_Model_Xml
 {
     protected $_itemName   = '@item_name@';
     protected $_tableName  = '@table_name@';
