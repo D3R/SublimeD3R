@@ -1,5 +1,6 @@
 import sublime
 import sublime_plugin
+import os.path
 
 class ToggleModelCommand(sublime_plugin.TextCommand):
 
@@ -8,7 +9,7 @@ class ToggleModelCommand(sublime_plugin.TextCommand):
         filename = view.file_name()
 
         if not "." in filename:
-            print(filename + " not found")
+            print(filename + " doesn't seem to have an extension")
             return
 
         current = filename[-4:]
@@ -21,5 +22,6 @@ class ToggleModelCommand(sublime_plugin.TextCommand):
 
         if ext:
             filename = filename[:-4] + ext
-            print("opening filename " + filename)
-            view.window().run_command("open_file", { "file": filename })
+            if os.path.isfile(filename):
+                view.window().run_command("open_file", { "file": filename })
+
