@@ -3,7 +3,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <fields>
-    
+
     <!-- Model DB Indices -->
     <!-- <indices>
         <index>
@@ -12,7 +12,7 @@
     </indices> -->
 
     <!-- Model Field Definitions -->
-    
+    $0
 
     <!-- Standard timestamp fields -->
     <field>
@@ -31,7 +31,7 @@
         <required>False</required>
         <listing>False</listing>
         <hidden>True</hidden>
-    </field>    
+    </field>
 
 </fields>
 ]]></content>
