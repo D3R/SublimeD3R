@@ -1,11 +1,10 @@
 import sublime
 
-def filename():
-    return 'D3R.sublime-settings'
+from .constants import Constants
 
 def get_setting(name, default=None):
-    v = sublime.active_window().project_data().get("d3r", {}).get(name, None)
+    v = sublime.active_window().project_data().get(Constants.CONFIG_NAME, {}).get(name, None)
     if v != None:
         return v
     else:
-        return sublime.load_settings(filename()).get(name, default)
+        return sublime.load_settings(Constants.SETTINGS_FILE).get(name, default)
