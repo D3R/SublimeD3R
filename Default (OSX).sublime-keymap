@@ -1,4 +1,4 @@
 [
     { "keys": ["ctrl+d", "ctrl+m"], "command": "toggle_model" },
-    { "keys": ["ctrl+d", "ctrl+e"], "command": "extract_interface" }
+    { "keys": ["ctrl+d", "ctrl+m"], "command": "create_model" }
 ]

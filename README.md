@@ -8,6 +8,10 @@ Add the following repository to Sublime Package Manager to be able to install th
 
 ## Commands
 
-* toggle_model 
+* toggle_model
     - Toggle between the php and xml files for a D3R Core model
     - Default keystroke [ ctrl+d, ctrl+t ]
+
+* create_model
+    - Given a model name, this command creates the base php class and xml definition files for a new model. The module doesn't have to exist already - directories are created as appropriate.
+    - Default keystroke [ ctrl+d, ctrl+m ]
