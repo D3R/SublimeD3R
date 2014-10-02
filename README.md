@@ -6,6 +6,31 @@ Add the following repository to Sublime Package Manager to be able to install th
 
 `https://raw.githubusercontent.com/D3R/sublime-channel/master/packages.json`
 
+# Installing an alternative branch
+
+To do this you need to checkout a local version of the plugin:
+
+* First, if you installed the plugin via Package Control, uninstall it
+* In a terminal change to your Packages directory, probably
+
+```
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
+``
+might do it on OSX
+* Clone the repository
+```
+git clone git@github.com:D3R/SublimeD3R.git
+```
+* Change into the fresh checkout and create a tracking branch for the one you're interested in
+```
+cd SublimeD3R
+git br --track <branch> origin/<branch>
+git co <branch>
+```
+* Restart Sublime
+
+You should now be running the branch version of the plugin
+
 ## Commands
 
 * toggle_model
