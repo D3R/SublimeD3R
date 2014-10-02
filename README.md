@@ -11,22 +11,16 @@ Add the following repository to Sublime Package Manager to be able to install th
 To do this you need to checkout a local version of the plugin:
 
 * First, if you installed the plugin via Package Control, uninstall it
-* In a terminal change to your Packages directory, probably
-
-```
-cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
-``
-might do it on OSX
-* Clone the repository
-```
-git clone git@github.com:D3R/SublimeD3R.git
-```
+* In a terminal change to your Packages directory, probably <code>cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages</code> might do it on OSX
+* Clone the repository with <code>git clone git@github.com:D3R/SublimeD3R.git</code>
 * Change into the fresh checkout and create a tracking branch for the one you're interested in
-```
+
+<code>
 cd SublimeD3R
 git br --track <branch> origin/<branch>
 git co <branch>
-```
+</code>
+
 * Restart Sublime
 
 You should now be running the branch version of the plugin
