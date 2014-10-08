@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+<field>
+    <name>Flags</name>
+    <dbname>flags</dbname>
+    <type>Flags</type>
+    <options>
+        <option>$1</option>
+    </options>
+    <autoupdate>True</autoupdate>
+    <listing>False</listing>
+</field>
+]]></content>
+    <tabTrigger>flags</tabTrigger>
+    <scope>text.xml</scope>
+    <description>D3R Field Flags</description>
+</snippet>
