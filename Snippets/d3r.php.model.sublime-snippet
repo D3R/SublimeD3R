@@ -1,7 +1,8 @@
 <snippet>
     <content><![CDATA[
-/* ${2/(?<=[a-z])[A-Z]/ $&/g}
- * 
+/**
+ * ${2/(?<=[a-z])[A-Z]/ $&/g}
+ *
  * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
  */
 class ${2:${TM_FILENAME/\.[^.]+$//}} extends D3R_Model_Xml${3:_Localised }

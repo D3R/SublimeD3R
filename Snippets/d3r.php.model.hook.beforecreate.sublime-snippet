@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Override for beforeCreate model hook
+ *
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
+ */
+public function beforeCreate()
+{
+    parent::beforeCreate();$1
+}$2
+]]></content>
+    <tabTrigger>bcreate</tabTrigger>
+    <scope>source.php</scope>
+    <description>D3R Model beforeCreate</description>
+</snippet>

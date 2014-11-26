@@ -1,5 +1,10 @@
 <snippet>
     <content><![CDATA[
+/**
+ * Override for beforeSave model hook
+ *
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
+ */
 public function beforeSave()
 {
     parent::beforeSave();$1

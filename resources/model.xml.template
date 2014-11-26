@@ -1,18 +1,14 @@
-<snippet>
-	<content><![CDATA[
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- XML Field Definition for @model_name@ -->
+<!-- @author @author@ -->
+<!-- @copyright 2014 D3R Ltd -->
+<!-- @generated @date@ -->
 
 <fields>
 
-    <!-- Model DB Indices -->
-    <!-- <indices>
-        <index>
-            <field>fieldname</field>
-        </index>
-    </indices> -->
-
     <!-- Model Field Definitions -->
-    $0
+
 
     <!-- Standard timestamp fields -->
     <field>
@@ -22,7 +18,6 @@
         <default>now</default>
         <required>False</required>
         <listing>False</listing>
-        <hidden>True</hidden>
     </field>
     <field>
         <name>Updated</name>
@@ -30,11 +25,14 @@
         <type>Updated</type>
         <required>False</required>
         <listing>False</listing>
-        <hidden>True</hidden>
     </field>
 
+    <!-- Model DB Indices -->
+    <!--
+    <indices>
+        <index>
+            <field>fieldname</field>
+        </index>
+    </indices>
+    -->
 </fields>
-]]></content>
-	<tabTrigger>model</tabTrigger>
-	<scope>text.xml</scope>
-</snippet>
