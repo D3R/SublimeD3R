@@ -1,0 +1,4 @@
+[
+  { "caption": "D3R: Toggle Model PHP and XML", "command": "toggle_model" },
+  { "caption": "D3R: Create a new model", "command": "create_model" },
+]
