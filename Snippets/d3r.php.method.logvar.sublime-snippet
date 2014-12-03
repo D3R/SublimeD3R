@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-D3R_Debug::logVar(${1:\$var}, '${2:Variable output}', '${3:payment}');
+D3R_Debug::logVar(${1:\$var}, '${2:Variable output}', '${3:important}');
 ]]></content>
 	<tabTrigger>logvar</tabTrigger>
 	<scope>source.php</scope>
