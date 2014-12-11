@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-/* ${2/(?<=[a-z])[A-Z]/ $&/g}
+/**
+ * ${2/(?<=[a-z])[A-Z]/ $&/g}
  *
  * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
  */
@@ -12,7 +13,7 @@ class ${2:${TM_FILENAME/\.[^.]+$//}} extends D3R_Controller_Action_Rest
 	protected \$_apiVersion    = 2;
 	protected \$_userClass     = 'Core_ApiUser';
 	protected \$_authProvider  = 'D3R_Rest_Auth_Provider_Standard';
-	
+
 	protected \$_openMethods   = array();
 
 }

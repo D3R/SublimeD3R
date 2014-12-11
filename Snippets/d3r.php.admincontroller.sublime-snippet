@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <snippet>
     <content><![CDATA[
-/* ${2/(?<=[a-z])[A-Z]/ $&/g}
+/**
+ * ${2/(?<=[a-z])[A-Z]/ $&/g}
  *
  * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
  */
