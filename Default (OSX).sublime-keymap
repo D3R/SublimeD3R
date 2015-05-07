@@ -1,4 +1,5 @@
 [
     { "keys": ["ctrl+d", "ctrl+t"], "command": "toggle_model" },
-    { "keys": ["ctrl+d", "ctrl+m"], "command": "create_model" }
+    { "keys": ["ctrl+d", "ctrl+m"], "command": "create_model" },
+    { "keys": ["ctrl+d", "ctrl+i"], "command": "create_interface" }
 ]

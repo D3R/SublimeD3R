@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @iface_name@
+ *
+ * @author    @author@
+ * @copyright 2014 D3R Ltd
+ * @license   http://d3r.com/license D3R Software Licence
+ * @package   D3R
+ * @generated @date@
+ */
+interface @iface_name@
+{
+}

@@ -1,5 +1,6 @@
 {
     "author": "D3R <technical@d3r.com>",
     "templates_model_php": "model.php.template",
-    "templates_model_xml": "model.xml.template"
+    "templates_model_xml": "model.xml.template",
+    "templates_iface_php": "interface.php.template"
 }
