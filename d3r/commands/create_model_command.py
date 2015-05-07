@@ -34,8 +34,8 @@ class CreateModelCommand(sublime_plugin.TextCommand):
         }
 
         files = {
-            "php": load_data_file('model.php.template'),
-            "xml": load_data_file('model.xml.template')
+            "php": load_data_file('templates_model_php'),
+            "xml": load_data_file('templates_model_xml')
         }
 
         baseDir = find_base_directory()
