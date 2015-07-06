@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+<field>
+    <name>$1</name>
+    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->
+    <type>SelectMultiple</type>
+    <options>
+        <option value="$3">$4</option>
+    </options>
+    <!-- <default>$5</default> -->
+    <!-- <num_cols>2<num_cols> -->
+    <required>False</required>
+    <listing>False</listing>
+    <hasblank>True</hasblank>
+</field>
+]]></content>
+    <tabTrigger>select</tabTrigger>
+    <scope>text.xml</scope>
+    <description>D3R Field SelectMultiple</description>
+</snippet>
