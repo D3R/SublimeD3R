@@ -3,13 +3,18 @@
 /**
  * ${2/(?<=[a-z])[A-Z]/ $&/g}
  *
- * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME <$TM_EMAIL>}
  */
 class ${2:${TM_FILENAME/\.[^.]+$//}} extends D3R_Controller_Action_Base
 {
     protected \$_frame  = '${3:frame}';
     protected \$_layout = '${4:default}';
 
+    /**
+     * $6 action
+     *
+     * @author ${PHPDOC_AUTHOR:$TM_FULLNAME <$TM_EMAIL>}
+     */
     public function ${6:index}Action()
     {
         ${0:# code...}

@@ -3,7 +3,7 @@
 /**
  * ${2/(?<=[a-z])[A-Z]/ $&/g}
  *
- * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME <$TM_EMAIL>}
  */
 class ${2:${TM_FILENAME/AdminController\.[^.]+$//}}AdminController extends D3R_Controller_Action_Admin_Listing${3:_Localised }
 {
