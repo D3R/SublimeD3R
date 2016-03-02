@@ -3,7 +3,7 @@
 /**
  * Override for afterSave model hook
  *
- * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME <$TM_EMAIL>}
  */
 public function afterSave()
 {

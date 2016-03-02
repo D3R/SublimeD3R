@@ -3,7 +3,7 @@
 /**
  * $1
  *
- * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}
+ * @author ${PHPDOC_AUTHOR:$TM_FULLNAME <$TM_EMAIL>}
  */
 public function $2Action()
 {
