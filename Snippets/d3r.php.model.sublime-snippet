@@ -5,12 +5,12 @@
  *
  * @author ${PHPDOC_AUTHOR:$TM_FULLNAME <$TM_EMAIL>}
  */
-class ${2:${TM_FILENAME/\.[^.]+$//}} extends D3R_Model_Xml${3:_Localised }
+class ${2:${TM_FILENAME/\.[^.]+$//}} extends D3R_Model }
 {
-    protected \$_itemName   = '${4:${2/(.*?_)(.*)/\l$2/}}';
-    protected \$_tableName  = '${5:${2/(.*?_)(.*)/\l$2/}s}';
+    protected \$_itemName   = '${3:${2/(.*?_)(.*)/\l$2/}}';
+    protected \$_tableName  = '${4:${2/(.*?_)(.*)/\l$2/}s}';
 
-    $6
+    $0
 }
 
 ]]></content>
