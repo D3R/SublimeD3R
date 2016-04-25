@@ -5,7 +5,7 @@
  *
  * @author ${PHPDOC_AUTHOR:$TM_FULLNAME <$TM_EMAIL>}
  */
-class ${2:${TM_FILENAME/\.[^.]+$//}} extends D3R_Model }
+class ${2:${TM_FILENAME/\.[^.]+$//}} extends D3R_Model
 {
     protected \$_itemName   = '${3:${2/(.*?_)(.*)/\l$2/}}';
     protected \$_tableName  = '${4:${2/(.*?_)(.*)/\l$2/}s}';
