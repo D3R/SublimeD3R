@@ -2,7 +2,7 @@
     <content><![CDATA[
 <field>
     <name>$1</name>
-    <!-- <dbname>${1/[ ]/_/ig}</dbname> -->
+    <!-- <dbname>${1/^(\w)|( (\w))/(?1:\l\1:)(?2:_\l\3:)/g}</dbname> -->
     <type>DynamicList</type>
     <!-- <default>$3</default> -->
     <!-- <suppress_blank>True</suppress_blank> -->
