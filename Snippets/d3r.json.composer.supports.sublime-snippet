@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+"php-versions": {
+    "7.3": {
+        "status": "${1:supported}"
+    },
+    "8.0": {
+        "status": "${2:supported}"
+    },
+    "8.1": {
+        "status": "${3:experimental}"
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>versions</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.json</scope>
+    <description>Composer PHP Versions</description>
+</snippet>
