@@ -1,0 +1,14 @@
+name: SublimeD3R
+id: ari:cloud:compass:99f81cd3-6055-4ddd-97a3-655f84dd430a:component/a6a6633a-8303-46fd-94f0-c5635a90b6ba/dd7735f7-a7a2-4da1-87a6-6112d9426025
+description: A sublime package for common requirements of the D3R Framework
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links: []
+relationships:
+  DEPENDS_ON: []
+labels:
+  - language:python
+  - source:github
+customFields: null
